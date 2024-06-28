@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Initially hides the answer sections */
+.answer {
+    display: none;
+}
+
+/* Adds styling for active answer sections */
+.active {
+    display: block;
+}
+
+/* Styles for the question sections */
+.question {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #cfb447;
+    border: 1px solid #cfb447;
+    margin-bottom: 5px;
+}
+
+/* Changes background color on hover for better user experience */
+.question:hover {
+    background-color: #cfb447;
+}
+
+/* Styles for the answer sections */
+.answer {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-bottom: 10px;
+}
